@@ -1,0 +1,22 @@
+# Các thư mục chứa thư viện (cực kỳ quan trọng)
+node_modules/
+dist/
+build/
+coverage/
+
+# File cấu hình môi trường (Không bao giờ được đẩy lên GitHub)
+.env
+.env.local
+.env.*.local
+
+# Các file rác của hệ điều hành và IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# File log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
